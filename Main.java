@@ -6,8 +6,8 @@ import java.util.List;
 /**
  * Write a description of class Main here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (your mom)
+ * @version (Minecraft 2.1.0)
  */
 public class Main
 {
@@ -31,6 +31,18 @@ public class Main
         Movie[][] mB = { {moana, frozen, bh6}, {spirit, howel, ponyo, marnie}, { april, kubo, anastasia, spider}};
         ArrayList<Movie> mC = new ArrayList<Movie>( Arrays.asList(mA));
         
+    
     }// END psvm
-        
-} // END class Main
+    public static void Second(Movie[] mA, Movie[][] mB)
+    {
+        for(Movie m: mA)
+        {
+            for(Movie[] n: mB)
+            {
+                System.out.print(m);
+                System.out.print(n);
+             }
+        }
+    }
+}
+ // END class Main
